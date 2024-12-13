@@ -1,0 +1,35 @@
+.main{
+    background-color: black;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+}
+.left{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 10px;
+    padding: 10px;
+}
+.logo{
+    padding: 10px;
+}
+.hide {
+    display: none;
+
+}
+@media(max-width:768px){
+    .main{
+        max-width: 768px;
+        justify-content: space-between;
+    }
+    .hide{
+        display: block;
+        padding: 10px;
+    }
+    .item{
+        display: none;
+    }
+}
